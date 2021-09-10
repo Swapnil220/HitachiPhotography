@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    background-color: white;
+    color: rgb(83, 83, 83);
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 1px solid rgb(238, 236, 236);
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 5vh;
+    padding: 0 2vh;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10vh;
+}
+
+ul li{
+    list-style: none;
+    padding:0 2vh ;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.log{
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul li:hover{
+    color:black;
+    text-decoration: underline;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    margin: 0 0 0 28vh;
+    border: none;
+}
+
+.btn img{
+    width: 4.4vh;
+    cursor: pointer;
+}
+
+.search input{
+    width: 70vh;
+    height: 4.9vh;
+    border: none;
+    background-color: rgb(236, 231, 231);
+    padding: 0 2vh;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(230, 227, 227);
+    min-height: calc(100vh - 10vh - 20vh);
+    overflow:hidden;
+}
+
+.first h1{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.category1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.image1{
+    display: flex;
+    justify-content: center;
+}
+
+.image1 img{
+    width: 100vh;
+    margin: 0 50vh;
+}
+
+.category2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.image2{
+    display: flex;
+    justify-content: center;
+}
+
+.image2 img{
+    width: 100vh;
+    margin: 0 50vh;
+}
+
+.category3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.image3{
+    display: flex;
+    justify-content: center;
+}
+
+.image3 img{
+    width: 100vh;
+    margin: 0 50vh;
+}
+
+.category4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.image4{
+    display: flex;
+    justify-content: center;
+}
+
+.image4 img{
+    width: 100vh;
+    margin: 0 50vh;
+}
+
+.category5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.image5{
+    display: flex;
+    justify-content: center;
+}
+
+.image5 img{
+    width: 100vh;
+    margin: 0 50vh;
+}
+
+.category6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.image6{
+    display: flex;
+    justify-content: center;
+}
+
+.image6 img{
+    width: 100vh;
+    margin: 0 50vh;
+}
+
+.category7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.image7{
+    display: flex;
+    justify-content: center;
+}
+
+.image7 img{
+    width: 100vh;
+    margin: 0 50vh;
+}
+
+.category8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.image8{
+    display: flex;
+    justify-content: center;
+}
+
+.image8 img{
+    width: 100vh;
+    margin: 0 50vh;
+}
+
+.category9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.image9{
+    display: flex;
+    justify-content: center;
+}
+
+.image9 img{
+    width: 100vh;
+    margin: 0 50vh;
+}
+
+.category10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.image10{
+    display: flex;
+    justify-content: center;
+}
+
+.image10 img{
+    width: 100vh;
+    margin: 0 50vh;
+}
+
+.foot{
+    background-color: rgb(211, 209, 209);
+    color: black;
+    height: 20vh;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.reach{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 0 0;
+}
+
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.mail:hover{
+    text-decoration: underline;
+}
+
+.logo1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 2vh;
+}
+
+.insta{
+    margin: 0 1vh;
+    cursor: pointer;
+}
+
+.twit{
+    margin: 0 1vh;
+    cursor: pointer;
+}
+
+.yt{
+    margin: 0 1vh;
+    cursor: pointer;
+}
+
+.wp{
+    margin: 0 1vh;
+    cursor: pointer;
+}
+
+.tele{
+    margin: 0 1vh;
+    cursor: pointer;
+}
